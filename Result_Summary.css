@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.Container{
+    height: 270px;
+    width: 450px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+.Percentage{
+    width: 50%;
+    height: 35%;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(25, 36, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Score{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Total{
+    color: grey;
+    font-size: 12px;
+}
+.Result{
+    background-image: linear-gradient(to left,rgb(20, 54, 252),rgb(85, 85, 247));
+    padding-top: 10px;
+    color: white;
+    background-color: #3b3bfa;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Description{
+    font-size: 13px;
+    width: 70%;
+    text-align: center;
+}
+.Summary{
+    width: 50%;
+    padding: 5%;
+}
+.Summary>h1{
+    font-size: 17px;
+}
+
+.r,.m,.v,.vi{
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: rgba(237, 194, 194, 0.336);
+}
+.continue{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+.m{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 229, 0.611);
+}
+.v{
+    background-color: rgba(175, 249, 175, 0.195);
+}
+.vi{
+    background-color: rgba(167, 167, 251, 0.303);
+}
+.r>.r1{
+    color: red;
+}
+.m>.m1{
+    color: rgb(228, 228, 4);
+}
+.v>.v1{
+    color: rgb(0, 248, 165);
+}
+.vi>.vi1{
+    color: blue;
+}

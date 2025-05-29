@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Navbar{
+    padding-left: 40px;
+    padding-right: 25px;
+    border: 2px blue solid;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(34, 136, 232, 0.425);
+    font-size: 20px;
+    color: rgb(17, 17, 182);
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 17, 182);
+}
+.Title{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.Adopt{
+    color: rgb(3, 3, 254);
+    border: 2px blue solid;
+    padding: 5px;
+    background-color: skyblue;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Image/Cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+header{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    padding-top: 15px;
+}
+.btn{
+    color: black;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+}
